@@ -1,0 +1,29 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Artefactos de entrenamiento
+*.pth
+*.pt
+*.ckpt
+historial_entrenamiento.csv
+threshold_validation_*.csv
+wandb/
+
+# Datos (no versionar datasets)
+data/
+dataset/
+*.tif
+*.tiff
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

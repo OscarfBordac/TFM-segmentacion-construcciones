@@ -1,0 +1,23 @@
+# Entorno base (Kaggle ya trae torch/torchvision)
+torch>=2.0
+torchvision
+
+# Versiones críticas fijadas por los notebooks
+segmentation-models-pytorch==0.4.0
+albumentations==1.4.24
+
+# Datos geoespaciales e imagen
+rasterio
+opencv-python
+Pillow
+
+# Análisis y visualización
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+
+# Notebooks
+jupyter
+ipykernel
